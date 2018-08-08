@@ -14,7 +14,6 @@
 #define SYSTEM_CPU_STAT "/proc/stat"
 #define SYSTEM_INFO 10
 #define CPU_TIME_NUM 7
-
 typedef int int32;
 static char outfile[10];
 enum  eCsvWriteMode
@@ -22,7 +21,6 @@ enum  eCsvWriteMode
     ECWM_ONELINE=1,
     ECWM_OTHERLINE,
 };
-
 static int cpu_tz_id = 0;
 static int bat_tz_id = 0;
 static int pcb_tz_id = 0;
