@@ -94,7 +94,7 @@ static void create_save_log_file(void)
     time_t t1;
     t1 = time(NULL);
     newtime = localtime(&t1);
-    strftime(logfile,39,"thermal-log-%Y-%m-%d-%H:%M:%S.csv",newtime);
+    strftime(logfile,39,"fetch-log-%Y-%m-%d-%H:%M:%S.csv",newtime);
     logfile[38] = 0;
 }
 
@@ -278,14 +278,14 @@ static void usage(char *cmd)
         cmd);
 }
 
-int le_thermal_main(int argc, char *argv[])
+int fetch_info_main(int argc, char *argv[])
 {
     int i = 0,j = 0;
     unsigned long time = 0;
 	int delay_time = 1;
 	unsigned long running_time = 3600;
     create_save_log_file();
-    char save_log_path[55] = "/storage/sdcard0/";
+    char save_log_path[55] = "/data/";
     strcat(save_log_path,logfile);
     printf("save log path is: %s\n",save_log_path);
     for(i = 1; i < argc; i++) {

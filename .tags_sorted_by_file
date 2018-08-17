@@ -1,0 +1,53 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+CPU_NUM_PATH	le_thermal.c	8;"	d	file:
+CPU_TIME_NUM	le_thermal.c	16;"	d	file:
+ECWM_ONELINE	le_thermal.c	/^    ECWM_ONELINE=1,$/;"	e	enum:eCsvWriteMode	file:
+ECWM_OTHERLINE	le_thermal.c	/^    ECWM_OTHERLINE,$/;"	e	enum:eCsvWriteMode	file:
+ERR_RETURN	le_thermal.c	44;"	d	file:
+SYSTEM_CPU_FREQ_PATH	le_thermal.c	13;"	d	file:
+SYSTEM_CPU_STAT	le_thermal.c	14;"	d	file:
+SYSTEM_FPS_PATH	le_thermal.c	9;"	d	file:
+SYSTEM_GPU_AND_POWER_LIMIT_PATH	le_thermal.c	12;"	d	file:
+SYSTEM_GPU_FREQ_PATH	le_thermal.c	10;"	d	file:
+SYSTEM_GPU_LOADING_PATH	le_thermal.c	11;"	d	file:
+SYSTEM_INFO	le_thermal.c	15;"	d	file:
+all_thermal_zone_num	le_thermal.c	/^static int all_thermal_zone_num = 0;$/;"	v	file:
+bat_tz_id	le_thermal.c	/^static int bat_tz_id = 0;$/;"	v	file:
+cacl_cpu_loading	le_thermal.c	/^static void cacl_cpu_loading()$/;"	f	file:
+cpu_loading	le_thermal.c	/^static unsigned long cpu_loading[SYSTEM_INFO];$/;"	v	file:
+cpu_num	le_thermal.c	/^static int cpu_num = 0;$/;"	v	file:
+cpu_power_limit	le_thermal.c	/^static int cpu_power_limit = 0;$/;"	v	file:
+cpu_tz_id	le_thermal.c	/^static int cpu_tz_id = 0;$/;"	v	file:
+create_collect_log_timestamp	le_thermal.c	/^static void create_collect_log_timestamp(void)$/;"	f	file:
+create_save_log_file	le_thermal.c	/^static void create_save_log_file(void)$/;"	f	file:
+curr_cpu_freq	le_thermal.c	/^static unsigned long curr_cpu_freq[SYSTEM_INFO];$/;"	v	file:
+curr_gpu_freq	le_thermal.c	/^static int curr_gpu_freq = 0;$/;"	v	file:
+curr_gpu_loading	le_thermal.c	/^static int curr_gpu_loading = 0;$/;"	v	file:
+eCsvWriteMode	le_thermal.c	/^enum  eCsvWriteMode$/;"	g	file:
+fps_num	le_thermal.c	/^static int fps_num = 0;$/;"	v	file:
+get_cpu_freq	le_thermal.c	/^static unsigned long get_cpu_freq()$/;"	f	file:
+get_cpu_loading	le_thermal.c	/^static int get_cpu_loading()$/;"	f	file:
+get_cpu_num	le_thermal.c	/^static int get_cpu_num(void)$/;"	f	file:
+get_sensor_temp	le_thermal.c	/^static int get_sensor_temp(int sensor_id)$/;"	f	file:
+get_system_fps	le_thermal.c	/^static int get_system_fps(void)$/;"	f	file:
+get_system_gpu_and_power_limit	le_thermal.c	/^static int get_system_gpu_and_power_limit(void)$/;"	f	file:
+gpu_power_limit	le_thermal.c	/^static int gpu_power_limit = 0;$/;"	v	file:
+int32	le_thermal.c	/^typedef int int32;$/;"	t	file:
+le_thermal_main	le_thermal.c	/^int le_thermal_main(int argc, char *argv[])$/;"	f
+logfile	le_thermal.c	/^static char logfile[39];$/;"	v	file:
+new_cpu_time	le_thermal.c	/^static unsigned long new_cpu_time[SYSTEM_INFO][CPU_TIME_NUM];$/;"	v	file:
+old_cpu_time	le_thermal.c	/^static unsigned long old_cpu_time[SYSTEM_INFO][CPU_TIME_NUM];$/;"	v	file:
+outfile	le_thermal.c	/^static char outfile[10];$/;"	v	file:
+pcb_tz_id	le_thermal.c	/^static int pcb_tz_id = 0;$/;"	v	file:
+putString2Csv	le_thermal.c	/^int32 putString2Csv(char str[],char filename[],int mode)$/;"	f
+sensor_temp	le_thermal.c	/^static int sensor_temp;$/;"	v	file:
+thermal_zone_num	le_thermal.c	/^static int thermal_zone_num(void)$/;"	f	file:
+title_name	le_thermal.c	/^static const char *title_name[29]={"time","cpu_temp","bat_temp","pcb_temp","cpu0_freq",$/;"	v	file:
+total_cpu_time	le_thermal.c	/^static unsigned long total_cpu_time[SYSTEM_INFO];$/;"	v	file:
+usage	le_thermal.c	/^static void usage(char *cmd)$/;"	f	file:
+user_system_cpu_time	le_thermal.c	/^static unsigned long user_system_cpu_time[SYSTEM_INFO];$/;"	v	file:
